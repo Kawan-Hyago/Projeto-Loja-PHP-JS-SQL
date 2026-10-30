@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas</title>
+    <link rel="stylesheet" href="../../css/estilo.css">
+</head>
+<body>
+    <nav><a href="../../index.html">Início</a></nav>
+    <h1>Vendas</h1>
+    <p id="mensagem" class="mensagem" hidden></p>
+    <a class="botao" href="cadastrar.html">Nova venda</a>
+    <table>
+        <thead>
+            <tr><th>ID</th><th>Cliente</th><th>Data</th><th>Total</th><th>Ações</th></tr>
+        </thead>
+        <tbody id="tabela"></tbody>
+    </table>
+    <script src="../../js/api.js"></script>
+    <script src="../../js/vendas/listar.js"></script>
+</body>
+</html>

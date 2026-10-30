@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="../../css/estilo.css">
+</head>
+<body>
+    <nav><a href="../../index.html">Início</a></nav>
+    <h1>Produtos</h1>
+    <p id="mensagem" class="mensagem" hidden></p>
+    <a class="botao" href="cadastrar.html">Novo produto</a>
+    <table>
+        <thead>
+            <tr><th>ID</th><th>Nome</th><th>Preço</th><th>Fabricante</th><th>Ações</th></tr>
+        </thead>
+        <tbody id="tabela"></tbody>
+    </table>
+    <script src="../../js/api.js"></script>
+    <script src="../../js/produtos/listar.js"></script>
+</body>
+</html>
